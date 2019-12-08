@@ -7,13 +7,12 @@ document.getElementById("button").addEventListener("click", () => {
         "I would love to insult you, but I'm afraid I won't do it as well as nature did.",
         "I have neither the time, nor the crayons, to explain this to you.",
     ];
-    
-    document.getElementById("insults"); {
-    function randomInsult() {
-        return insults[Math.floor(Math.random()* insults.length)]
+
+    function randomQuote() {
+        const randomInsult = Math.floor(Math.random()* (insults.length));
+        document.getElementById("insults").innerHTML = insults[randomInsult];
     }
-    }
-});
+}); 
 
 
 
