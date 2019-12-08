@@ -6,6 +6,8 @@ document.getElementById("button").addEventListener("click", () => {
         "You're not pretty enough to be that stupid.",
         "I would love to insult you, but I'm afraid I won't do it as well as nature did.",
         "I have neither the time, nor the crayons, to explain this to you.",
+        "You spit in the face of evolution.",
+
     ];
 
     function randomQuote() {
