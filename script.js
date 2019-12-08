@@ -12,6 +12,8 @@ document.getElementById("button").addEventListener("click", () => {
         const randomInsult = Math.floor(Math.random()* (insults.length));
         document.getElementById("insults").innerHTML = insults[randomInsult];
     }
+
+    randomQuote();
 }); 
 
 
